@@ -228,11 +228,12 @@ button:focus {
 /*Header and footer static elements, artist and contact*/
 
 .artist {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', cursive, bold;
+    font-weight: 700;
     /*font-family: 'Playfair Display SC', serif;*/
     color: #f1f1f1;
     /*letter-spacing: 3.25em;*/
-    letter-spacing: 1.5em;
+    letter-spacing: 1.25em;
     display: block;
     position: absolute;
     z-index: 200;
@@ -258,7 +259,7 @@ button:focus {
 
 .fp-viewing-1 .artist {
     color: #3e3e3e;
-    top: 7%;
+    top: 5%;
     /*display: block;*/
     /*text-shadow:*/
             /*29px 24px 0 rgba(105, 247, 255, 0.0),*/
@@ -274,6 +275,7 @@ button:focus {
 .contactOne {
     font-family: 'Comfortaa', cursive;
     /*font-family: 'Playfair Display SC', serif;*/
+    font-weight: bold;
     color: transparent;
     width: 100vw;
     display: block;
@@ -293,12 +295,12 @@ button:focus {
 
 .fp-viewing-0 .contactOne {
     color: #f1f1f1;
-    bottom: 40px;
+    bottom: 2em;
  }
 
 .fp-viewing-1 .contactOne {
     color: #3e3e3e;
-    bottom: 40px;
+    bottom: 2em;
 }
 
 /* Shutter Out Vertical effect for contact */
@@ -431,6 +433,7 @@ button:focus {
     max-width: 100%;
     height: auto;
     min-height: 120px !important;
+    cursor: pointer;
 }
 
 .cymkImage {
